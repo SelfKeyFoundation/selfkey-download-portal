@@ -1,0 +1,15 @@
+{
+  "name": "client",
+  "version": "1.0.0",
+  "description": "* renders the Log In with SelfKey button and * handles cases where a user interacts with it without having the browser extension installed * renders the interface for selecting and submitting claims",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pushstate-server": "^3.0.1"
+  }
+}
