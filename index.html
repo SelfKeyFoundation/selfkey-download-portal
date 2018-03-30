@@ -1,6 +1,6 @@
 <html>
 	<head>
-		<title>Selfkey Login</title>
+		<title>SelfKey Download Center</title>
 
 		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">    
@@ -8,41 +8,62 @@
 		<link href="css/styles.css" rel="stylesheet">
 	</head>
 	<body style="background-color: #112f38;">
-		<div class="container text-center">
+		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
-					<h1><img src="img/logo.png"><br>Download Centre</h1>
+					<div class="text-center">
+						<h1><img src="img/logo.png"><br>Download Centre <span style="font-size: 18px;"><em>alpha</em></span></h1>
+					</div>
 					<hr>
-					<h3><em>SelfKey ID Wallet</em></h3>
-					<br>
-					<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">
-						<img src="img/48x48.png">&nbsp;&nbsp;Download Now
-					</button>
+					<div class="row">
+						<br>
+						<div class="col-md-4">
+							<img class="img-responsive" src="img/wallet.png">
+						</div>
+						<div class="col-md-8">
+							<h3><em>SelfKey Identity Wallet <span style="font-size: 14px;"><em>alpha</em></span></em></h3>
+							<p>The SelfKey Identity Wallet allows users privacy, security and freedom to manage their digital identity and cryptocurrency assets.  This build also includes an integration to allow for seamless interaction with the Login with SelfKey Chrome Extension. Please download the wallet application for your operating system using the download links below.</p>
+							<br>
+							<a class="btn btn-info btn-lg">
+								<i class="fa fa-apple"></i>&nbsp;&nbsp;Download for MacOS
+							</a>
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+							<a class="btn btn-info btn-lg">
+								<i class="fa fa-windows"></i>&nbsp;&nbsp;Download for Windows x64
+							</a>
+							<br><br>
+						</div>
+					</div>
+					<hr>
+					<div class="row">
+						<br>
+						<div class="col-md-8">
+							<h3><em>Login with SelfKey Chrome Extension <span style="font-size: 14px;"><em>alpha</em></span></em></h3>
+							<p>Login with SelfKey allows users a way to securely and privately authenticate themselves without the need for a centralized authority.  In order to use the alpha version of the extension, please follow these instructions: </p>
+							<ol>
+								<li>Download the source code for the extension below and extract the files</li>
+								<li>Goto chrome://extensions in your Chrome browser</li>
+								<li>Enable "Developer Mode"</li>
+								<li>Select "Load Unpacked Extension" and choose the "/src" directory of the extracted files</li>
+								<li>Make sure the extension is enabled - you should see the SelfKey icon in your browser</li>
+								<li>Navigate to a participating website and follow the instructions to log in</li>
+							</ol>
+							<br>
+							<a class="btn btn-info btn-lg">
+								<i class="fa fa-chrome"></i>&nbsp;&nbsp;Download Source Files
+							</a>
+							<br><br>
+						</div>
+						<div class="col-md-4">
+							<img class="img-responsive" src="img/be.png" style="border: solid 1px #fff;">
+						</div>
+					</div>
+					<hr>
+					<br><br>
+					<p class="text-center">Copyright © 2018 - SelfKey Foundation - All Rights Reserved</p>
+					<br><br>
 				</div>
 			</div>
-		</div>
-
-		<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-		  <div class="modal-dialog text-center" role="document">
-		    <div class="modal-content">
-		      <div class="modal-header">
-		        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-		        <img src="img/logo.png">
-		        <h4 class="modal-title" id="myModalLabel">I D &nbsp;&nbsp; W A L L E T</h4>
-		      </div>
-		      <div class="modal-body">
-		      	
-		        <h2>Success!</h2>
-		        <h4>Installed the SelfKey ID Wallet</h4>
-		        <br>
-		        <br>
-		        <button type="button" class="btn btn-default btn-md" data-dismiss="modal">Dismiss</button>
-
-<!-- 		      <div class="modal-footer">
-		        <button type="button" class="btn btn-default btn-xs" data-dismiss="modal">Dismiss</button>
-		      </div> -->
-		    </div>
-		  </div>
 		</div>
 
 		<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
